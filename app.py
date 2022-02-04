@@ -1,10 +1,9 @@
 from dash import *
 from testapp import *
-
 app = Dash(__name__)
 server = app.server
 app.layout = html.Div([
-    github_info_header(),
+    #github_info_header(),
     html.Img(src="assets/cute_ferret.jpeg")
 ])
 
